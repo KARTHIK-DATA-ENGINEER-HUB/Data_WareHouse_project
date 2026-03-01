@@ -6,7 +6,7 @@ Script Purpose:
   This stored procedure loads data into the silver schema from the bronze schema.
   It performs the following actions:
     -Truncates the silver tables before loading data.
-    -uses the  INSERT commmand to load data from bronze to silver schema.
+    -uses the  INSERT commmand to load transformed and cleansed data from bronze to silver schema.
 Parameters:
   This Stored procedure does not accept any parameters or return any values.
 Usage Example:
