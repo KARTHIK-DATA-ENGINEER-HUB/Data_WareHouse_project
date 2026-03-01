@@ -14,7 +14,7 @@ Usage Notes:
   -Run these checks after data loading to silver layer.
   -investigate and resolve any discreapancies found during the checks
 
-
+*/
 ---------------------QUALITY CHECK in the bronze layer
 ---CHECK FOR DUPLICATES IN THE PRIMARY KEY COLUMN OR IF ANY NULLS EXISTS IN PK COL 
 SELECT cst_idd,count(*) FROM bronze.crm_cust_info
